@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+faiss-cpu
+python-docx
+nbformat
+nbconvert
+ipykernel
+jupyter
+# Colab / neural embedding runs (not installable offline in some sandboxes):
+sentence-transformers
+transformers
+datasets
+torch
+psutil

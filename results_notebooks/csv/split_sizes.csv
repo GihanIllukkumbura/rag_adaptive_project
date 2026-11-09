@@ -1,0 +1,4 @@
+split,n_queries,n_articles
+test,1940,88
+train,6069,264
+val,1991,88

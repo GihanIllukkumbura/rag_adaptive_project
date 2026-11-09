@@ -1,0 +1,11 @@
+statistic,value
+n_passages,19035.0
+n_articles,442.0
+n_queries,10000.0
+passage_words_mean,116.58550039401104
+passage_words_median,107.0
+passage_words_p95,209.0
+passage_words_max,653.0
+query_words_mean,10.0946
+query_words_median,10.0
+rel_passages_per_query_mean,1.0

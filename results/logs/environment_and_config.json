@@ -1,0 +1,41 @@
+{
+  "config": {
+    "backend": "lsa",
+    "st_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "lsa_dim": 256,
+    "split": "train",
+    "n_queries": 10000,
+    "n_articles": null,
+    "seed": 4,
+    "alpha_main": 0.1
+  },
+  "env": {
+    "timestamp_utc": "2026-10-27T03:45:31.442395+00:00",
+    "python": "3.13.17",
+    "platform": "Linux-6.18.44-fc-v165-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_count": 2,
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.2",
+      "faiss-cpu": "1.15.1",
+      "sentence-transformers": null,
+      "transformers": null,
+      "torch": null,
+      "datasets": null,
+      "python-docx": "1.2.0"
+    },
+    "ram_gb": 8.42,
+    "cuda_available": false
+  },
+  "timing_s": {
+    "dense_index_s": 20.210958844000004,
+    "bm25_index_s": 2.0214577949999466,
+    "dense_batch_search_s": 0.8971910220000154,
+    "bm25_batch_search_s": 1.337833547999935,
+    "rrf_s": 0.5210457230000429
+  }
+}
